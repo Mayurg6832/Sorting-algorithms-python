@@ -5,7 +5,6 @@ def selection(arr):
             if arr[min_index]>arr[j]:
                 min_index=j
         arr[i],arr[min_index]=arr[min_index],arr[i]
-        print(arr)
     return arr
 
 lst=list(map(int,input().split()))
